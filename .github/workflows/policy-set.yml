@@ -1,0 +1,19 @@
+name: policy-module
+
+on:
+  push:
+    branches: [ "main" ]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  policy-set:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: googleapis/release-please-action@v4
+        with:
+          config-file: .github/.policy-set-config.json
+          manifest-file: .github/.policy-set-manifest.json
+          token: ${{ secrets.CICD_PAT }}
