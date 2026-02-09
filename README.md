@@ -10,6 +10,7 @@ This repository is to attach the policy set with the terraform workspace directl
 - `required_tags.sentinel` – Ensure core tags (Owner, Env) exist on key resources.
 
 # Project structure
+
 <pre>
 aws-policy-set/
 ├── README.md
