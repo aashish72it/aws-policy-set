@@ -1,14 +1,10 @@
 # aws-policy-set
+This repository is to attach the policy set with the terraform workspace directly. It is loading the policies from https://registry.terraform.io/policies/aashish72it/aws-infra/
 
-
+# Project Structure
 <pre>
 aws-policy-set/
-├── policies/
-│   ├── s3_require_encryption.sentinel
-│   ├── s3_block_public_access.sentinel
-│   ├── s3_require_versioning.sentinel
-│   ├── ec2_instance_type_allowlist.sentinel
-│   └── required_tags.sentinel
 ├── README.md
+├── LICENSE
 └── sentinel.hcl
 </pre>
