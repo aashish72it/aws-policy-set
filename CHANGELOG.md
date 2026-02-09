@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.0](https://github.com/aashish72it/aws-policy-set/compare/v0.1.1...v0.2.0) (2026-02-09)
+
+
+### Features
+
+* **Policies:** Pulling the policies from policy module ([f010532](https://github.com/aashish72it/aws-policy-set/commit/f010532a51b5d0cc349c484891ae6314f6b52527))
+
 ## [0.1.1](https://github.com/aashish72it/aws-policy-set/compare/v0.1.0...v0.1.1) (2026-02-08)
 
 
